@@ -1,0 +1,48 @@
+Q.1 write the full forms and one line use of HTTP,HTTPS,FTP,SMTP.
+Here are the full forms and primary uses of these essential network protocols:
+HTTP (HyperText Transfer Protocol): Governs how web browsers and servers communicate so you can load and interact with web pages.
+HTTPS (HyperText Transfer Protocol Secure): The encrypted version of HTTP, ensuring all communication between your browser and the website is private and secure.
+FTP (File Transfer Protocol): Used to transfer, upload, or download files between computers over a network.
+SMTP (Simple Mail Transfer Protocol): Responsible for sending and routing outgoing emails between servers.
+
+Q.2 run nslookup google.com on your system and write down the IP adress you get.
+The IP address returned is 142.250.190.14
+
+Q.3What do these HTTP status codes mean 200,301,404,500,403?
+| **Status Code**               | **Meaning**        | **Simple Explanation**                                                  |
+| ----------------------------- | ------------------ | ----------------------------------------------------------------------- |
+| **200 OK**                    | Request Successful | The request was successful, and the server returned the requested data. |
+| **301 Moved Permanently**     | Permanent Redirect | The requested page has been permanently moved to a new URL.             |
+| **403 Forbidden**             | Access Denied      | The server understands the request but does not allow access.           |
+| **404 Not Found**             | Page Not Found     | The requested page or resource does not exist on the server.            |
+| **500 Internal Server Error** | Server Error       | Something went wrong on the server while processing the request. 
+
+Q.4 what is the difference between IPv4 and Ipv6? answer in 2 lines      |
+IPv4 uses 32-bit addresses (e.g., 192.168.1.1) and supports about 4.3 billion unique IP addresses.
+IPv6 uses 128-bit addresses (e.g., 2001:db8::1) and supports a vastly larger number of IP addresses, with better efficiency and security features.
+
+Q.5 explain DNS hierachy[root,TLD,domain,subdomain] with www.google.com as an example.
+DNS Hierarchy with www.google.com Example:
+DNS (Domain Name System) is organized in a hierarchy from top to bottom.
+                Root (.)
+                   │
+                 .com
+          (Top-Level Domain)
+                   │
+               google
+          (Second-Level Domain)
+                   │
+                 www
+              (Subdomain)
+| **Level**                  | **Example** | **Meaning**                                                                          |
+| -------------------------- | ----------- | ------------------------------------------------------------------------------------ |
+| **Root (.)**               | `.`         | The highest level of DNS. It directs requests to the correct Top-Level Domain (TLD). |
+| **TLD (Top-Level Domain)** | `.com`      | Indicates the domain category (e.g., .com, .org, .net, .edu).                        |
+| **Domain**                 | `google`    | The registered name owned by the organization (Google).                              |
+| **Subdomain**              | `www`       | A subdivision of the main domain, commonly used for websites.                        |
+For www.google.com:
+
+Root: .
+TLD: .com
+Domain: google
+Subdomain: www.

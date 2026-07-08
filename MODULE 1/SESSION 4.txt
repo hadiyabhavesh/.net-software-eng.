@@ -1,0 +1,31 @@
+Q.1List all 6 phases of SDLC in order with one line about each.
+6 Phases of SDLC (Software Development Life Cycle)
+1.Requirement Gathering – Collect and understand the client's needs and project requirements.
+2.Analysis – Analyze the requirements and plan how the system will be developed.
+3.Designing – Create the system design, including the architecture, database, and user interface.
+4.Implementation (Coding) – Developers write the code to build the software.
+5.Testing – Test the software to find and fix bugs before release.
+6.Maintenance – Update, improve, and fix the software after it is released.
+
+Q.2Write 3 difference between Agile and Waterfall models.
+Agile Model	                                                Waterfall Model
+1. Development is done in small iterations.	                1. Development is done phase by phase in a fixed order.
+2. Changes can be made during development.	                2. Changes are difficult after a phase is completed.
+3. Customer gives feedback regularly throughout the project.	3. Customer gives feedback mainly after the project is completed.
+
+Q.3Name the 3 main scrum  roles and write one line about the responsibility of each.
+3 Main Scrum Roles
+1.Product Owner – Defines the product requirements and prioritizes the work for the team.
+2.Scrum Master – Guides the Scrum process, removes obstacles, and helps the team work effectively.
+3.Development Team – Builds, tests, and delivers the product during each sprint.
+
+Q.4What is a sprint in scrum? Mention its typically duration.
+Sprint: A sprint is a short, fixed time period in Scrum during which the team completes a set of planned tasks and delivers a working product increment.
+Typical Duration: A sprint usually lasts 1 to 4 weeks, with 2 weeks being the most common duration.
+
+Q.5What do these Jira board columns mean: To Do, In progress, Done, Backlog?
+Jira Board Columns
+1.Backlog – A list of all tasks that are planned but not yet selected for work.
+2.To Do – Tasks that are ready to start but have not been started yet.
+3.In Progress – Tasks that are currently being worked on.
+4.Done – Tasks that have been completed successfully.
