@@ -1,0 +1,3 @@
+laptop 27000
+headphone 4000
+smartwatch 4500
