@@ -1,0 +1,330 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Review - Inception</title>
+
+<style>
+    /* Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Body */
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f2f2f2;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+        background-color: #222;
+        color: white;
+        padding: 20px;
+    }
+
+    header h1 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    /* Navigation */
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: #ffcc00;
+    }
+
+    /* Main */
+    main {
+        width: 90%;
+        max-width: 900px;
+        margin: 30px auto;
+    }
+
+    /* Article */
+    article {
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Movie Header */
+    article > header {
+        background-color: #333;
+        border-radius: 8px;
+        margin-bottom: 25px;
+    }
+
+    article > header h2 {
+        color: #ffcc00;
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    article > header p {
+        margin: 5px 0;
+    }
+
+    /* Sections */
+    section {
+        margin-bottom: 25px;
+        padding: 20px;
+        border-left: 5px solid #ffcc00;
+        background-color: #fafafa;
+    }
+
+    section h3 {
+        color: #222;
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+
+    section p {
+        margin-bottom: 10px;
+    }
+
+    /* Rating */
+    .rating {
+        color: #e6a800;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    /* Lists */
+    ul {
+        margin-left: 25px;
+    }
+
+    li {
+        margin: 8px 0;
+    }
+
+    /* Pros and Cons */
+    .pros {
+        border-left-color: green;
+    }
+
+    .pros h3 {
+        color: green;
+    }
+
+    .cons {
+        border-left-color: red;
+    }
+
+    .cons h3 {
+        color: red;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #222;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    footer p {
+        margin-bottom: 10px;
+    }
+
+    footer nav a {
+        color: #ccc;
+        font-size: 14px;
+    }
+
+    footer nav a:hover {
+        color: #ffcc00;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+
+        header {
+            padding: 15px;
+        }
+
+        nav a {
+            display: block;
+            margin: 8px 0;
+        }
+
+        main {
+            width: 95%;
+            margin: 20px auto;
+        }
+
+        article {
+            padding: 15px;
+        }
+
+        article > header h2 {
+            font-size: 26px;
+        }
+
+        section {
+            padding: 15px;
+        }
+    }
+</style>
+
+</head> <body>
+<!-- Website Header -->
+<header>
+
+    <h1>Movie Review Website</h1>
+
+    <!-- Main Navigation -->
+    <nav aria-label="Main navigation">
+        <a href="#">Home</a>
+        <a href="#">Movies</a>
+        <a href="#">Reviews</a>
+        <a href="#">Contact</a>
+    </nav>
+
+</header>
+
+
+<!-- Main Content -->
+<main>
+
+    <!-- Movie Review -->
+    <article>
+
+        <!-- Movie Information -->
+        <header>
+
+            <h2>Inception</h2>
+
+            <p>
+                <strong>Director:</strong> Christopher Nolan
+            </p>
+
+            <p>
+                <strong>Release Year:</strong> 2010
+            </p>
+
+            <p>
+                <strong>Genre:</strong> Science Fiction, Thriller
+            </p>
+
+        </header>
+
+
+        <!-- Review Section -->
+        <section>
+
+            <h3>Movie Review</h3>
+
+            <p>
+                Inception is a science-fiction thriller that explores
+                dreams, memory, and reality. The movie follows Dom Cobb,
+                a skilled thief who enters people's dreams to steal
+                valuable information.
+            </p>
+
+            <p>
+                Cobb is given an unusual task: instead of stealing an
+                idea, he must plant one inside someone's mind. The story
+                combines action, mystery, and science fiction to create
+                a complex and engaging experience.
+            </p>
+
+            <p>
+                The movie is especially impressive because of its
+                storytelling, visual effects, music, and strong
+                performances.
+            </p>
+
+        </section>
+
+
+        <!-- Rating Section -->
+        <section>
+
+            <h3>Rating</h3>
+
+            <p class="rating">
+                ★★★★★ 9/10
+            </p>
+
+        </section>
+
+
+        <!-- Pros Section -->
+        <section class="pros">
+
+            <h3>Pros</h3>
+
+            <ul>
+                <li>Interesting and original concept</li>
+                <li>Excellent visual effects</li>
+                <li>Strong performances</li>
+                <li>Engaging storyline</li>
+                <li>Great background music</li>
+            </ul>
+
+        </section>
+
+
+        <!-- Cons Section -->
+        <section class="cons">
+
+            <h3>Cons</h3>
+
+            <ul>
+                <li>Complex storyline</li>
+                <li>Requires close attention</li>
+                <li>Some scenes may be confusing</li>
+            </ul>
+
+        </section>
+
+
+        <!-- Final Verdict -->
+        <section>
+
+            <h3>Final Thoughts</h3>
+
+            <p>
+                Inception is an ambitious movie with a creative concept
+                and a carefully constructed storyline. It is a good choice
+                for viewers who enjoy thought-provoking science-fiction
+                movies.
+            </p>
+
+        </section>
+
+    </article>
+
+</main>
+
+
+<!-- Website Footer -->
+<footer>
+
+    <p>
+        &copy; 2026 Movie Review Website
+    </p>
+
+    <nav aria-label="Footer navigation">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms &amp; Conditions</a>
+    </nav>
+
+</footer>
+
+</body> </html>

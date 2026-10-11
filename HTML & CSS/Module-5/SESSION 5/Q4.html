@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify playlist page</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 10px 20px;
+        padding: 10px;
+        background-color: black;
+        color: white;
+
+        
+    }
+    h1{
+        font-weight: bolder;
+        font-size: 3em;
+    }
+    .playlist-item{
+        font-size: 1.5em;
+        margin: 10px;
+        padding: 20px;
+        background-color: #181818;
+        border-radius: 8px;
+        width: 100%;
+        height: 80px;
+
+    }
+    #currently-playing{
+        background-color: green;
+    }
+</style>
+
+<body>
+    <h1>My Song playlist</h1>
+    <div class="playlist-item">Song-1. Kesariya</div>
+    <div class="playlist-item">Song-2. Tum Hi Ho</div>
+    <div class="playlist-item" id="currently-playing">
+        Song-3. Chaleya (Currently Playing)
+    </div>
+    <div class="playlist-item"> Song-4. Apna Bana Le</div>
+</body>
+
+</html>
