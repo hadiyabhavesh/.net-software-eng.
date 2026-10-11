@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart-style Product</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 5px 5px;
+        font-family: 'Times New Roman', Times, serif;
+        color: whiet;
+        background-color: #f1f3f6;
+    }
+
+    nav{
+        background-color: rgb(31, 29, 29);
+        border-radius: 20px;
+    }
+
+    nav ul{
+        overflow: auto;
+    }
+
+    nav li{
+    float: left;
+    list-style: none;
+    padding: 3px 3px;
+    margin: 13px 15px;
+    }
+
+    nav li a{
+        padding: 3px 3px;
+        color: white;
+    }
+    .main{
+        margin: 30px;
+        width: 90%;
+        max-width: 1000px;
+        background-color: #d0eaff;
+        display: flex;
+        gap: 20px;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .h1{
+        margin: 20px;
+        width: 40%;
+        text-align: center;
+    }
+
+    .h1 header{
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    .h1 img {
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
+    .h2{
+        margin: 20px;
+        width: 60%;
+    }
+    .h2 h1{
+        margin-bottom: 20px;
+    }
+    .h2 p{
+        margin: 10px 0px;
+    }
+    .price {
+        color: green;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .h2 h2{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .h2 li{
+        margin: 8px;
+    }
+    button {
+        background-color: orange;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        margin: 15px 5px 0 0;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: darkorange;
+    }
+
+    
+</style>
+
+<body>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#"> Home </a>
+            </li>
+            <li>
+                <a href="#"> About </a>
+            </li>
+            <li>
+                <a href="#"> Contact </a>
+             </li>
+        </ul>
+    </nav>
+   <section class="main">
+     <section class="h1">
+        <header>Samsung Galaxy S24</header>
+        <img src="../session-4/s1.webp" alt="">
+    </section>
+    <section class="h2">
+        <h1>
+            Samsung Galaxy S24 5g
+        </h1>
+        <p>
+            Experience powerful performance with a beautiful display,<br>
+            excellent camera, and long-lasting battery.
+        </p>
+        <p class="price">₹69,999</p>
+        <h2>Key Features</h2>
+        <ul>
+            <li>6.2-inch AMOLED Display</li>
+            <li>8 GB RAM</li>
+            <li>256 GB Storage</li>
+            <li>50 MP Camera</li>
+            <li>5G Connectivity</li>
+        </ul>
+        <button>Add to cart</button>
+        <button>Buy Now </button>
+    </section>
+   </section>
+
+</body>
+
+</html>
